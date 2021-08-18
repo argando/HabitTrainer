@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".CreateHabitActivity">
+
+    <EditText
+        android:paddingTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_title"
+        android:hint="@string/habit_title"
+        android:autofillHints="no"
+        android:inputType="text"/>
+    <EditText
+        android:paddingTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_description"
+        android:hint="@string/edit_habit_description"
+        android:inputType="textMultiLine"
+        android:maxLines="2"
+        android:autofillHints="no"/>
+    <Button
+        android:paddingTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_habit_image"
+        android:id="@+id/choose_habit_image"/>
+    <ImageView
+        android:paddingTop="2dp"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:id="@+id/habit_image"
+        android:contentDescription="@string/habit_image" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/save_habit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="@string/save_habit" />
+
+    <TextView
+        android:paddingTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/error_save"
+        android:visibility="invisible"
+        android:textColor="@color/design_default_color_error"
+        tools:ignore="RtlHardcoded" />
+
+</LinearLayout>

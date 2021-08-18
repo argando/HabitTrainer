@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HabitTrainer</string>
+    <string name="drink_water_description">Refreshing glass of water gets you hydrated</string>
+    <string name="drink_water_title">Drink water</string>
+    <string name="begin_habit">Begin the new habit…</string>
+    <string name="habit_title">Habit title</string>
+    <string name="edit_habit_description">Edit habit description</string>
+    <string name="save_habit">Save habit</string>
+    <string name="choose_habit_image">Choose habit image</string>
+    <string name="habit_image">Habit image</string>
+    <string name="choose_image_title">Choose image for habit</string>
+    <string name="habit_store_error">Habit cannot be stored</string>
+    <string name="descr_error">Please fill title and description</string>
+</resources>
